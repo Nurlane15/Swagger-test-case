@@ -12,6 +12,10 @@ Steps
 5.	Sağ küncdə try it out kliklə 
 6.	Execute kliklə
 Actual result – Bütün ölkələrə aid məlumatlar görsənir.
+
+
+
+
 TC 2 (Neqativ )
 Title – Ümumi sorğu
 Description – Get sorğusu vasitəsilə bütün ölkələri tapmaq
@@ -24,6 +28,11 @@ Steps
 5.	Execute kliklə
 Actual result –  popupda Authorization header tələb olunur yazısı görsənir , Status code 400 dür 
 Expected result - Bütün ölkələrə aid məlumatlar görsənir.
+
+
+
+
+
 TC 3 (Positiv )
 Title – Valid id ilə yoxlanış
 Description – Get sorğusu vasitəsilə ID si 930 olan ölkəni  tapmaq
@@ -37,6 +46,10 @@ Steps
 6.	Sağ küncdə try it out kliklə 
 7.	Execute kliklə
 Actual result –  ID 930 olan ölkə görsənir. Status code 200 dir
+
+
+
+
 TC 4 (Positiv )
 Title –  Delete vasitəsilə ölkəni silmək
 Description –  ID -i 930 olan ölkəni silmək
